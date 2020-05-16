@@ -7,6 +7,6 @@ Evolution.py : comprends les differents methodes pour simuler l'evolution
 
 selection naturelle() : prends un ensemble d'individus ( loups ) , les trier selon le nombre de genes de la couleur blanche , et retourne la moitié des meilleurs individus classés
 
-crossover() : prends un ensemble d'individus , prends chaque 2 individus et combine leurs genomes pour créer de nouvelles individus enfants , ensuite une mutation et retourne cette liste
+crossover() : prends un ensemble d'individus , prends chaque 2 individus et combine leurs genomes pour créer de nouvelles individus enfants , ensuite y applique la methode mutation() et retourne cette liste
 
 mutation() : prends un ensemble d'individus , pour chacun cherche un gene au hazard et l'inverse
